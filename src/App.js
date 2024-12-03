@@ -8,7 +8,7 @@ const EMAILJS_SERVICE_ID = 'service_06sz21y';
 function EmailForm() {
   const [kasharInputs, setKasharInputs] = useState({
     shellKubili: '',
-    shellKiarRoad: '',
+    shellKiraRoad: '',
     shellStretcher: '',
   });
 
@@ -122,7 +122,7 @@ function EmailForm() {
 
       setKasharInputs({
         shellKubili: '',
-        shellKiarRoad: '',
+        shellKiraRoad: '',
         shellStretcher: '',
       });
 
