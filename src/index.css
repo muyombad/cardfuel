@@ -178,6 +178,17 @@ body {
   transform: translateY(1px);
   box-shadow: 0 5px 10px rgba(52, 152, 219, 0.2);
 }
+.linktodata{
+  align-self: center;
+  font-weight: 800;
+ /* text-decoration: none;*/
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.linktodata1{
+  display: grid;
+  justify-content: center;
+}
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
@@ -234,3 +245,23 @@ body {
 /*.form-input {
   text-align: right; /* Align text to the right for numeric inputs 
 }*/
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
