@@ -154,12 +154,12 @@ function EmailForm() {
         recipient: 'muyombadavid148@gmail.com',
       };
 /////////////////send email//////////
-     //await emailjs.send(
-      //  EMAILJS_SERVICE_ID,
-      //  EMAILJS_TEMPLATE_ID,
-       // templateParams,
-       // EMAILJS_USER_ID
-     // );
+     await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_USER_ID
+      );
       handleStoreData()
 
       setKasharInputs({
